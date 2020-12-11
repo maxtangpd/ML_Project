@@ -1,38 +1,40 @@
 ## ML PROJECT
 
->  Music Genre classification using KNN，SVM，CNN
+>  Music Genre classification using Logistic Regression, KNN，SVM，CNN
 
 ### Overview
-
-
-### Results
-
 To compare the result across multiple architectures, we have took two approaches for this problem: One using the classic approach of extracting features and then using a classifier. The second approach, wich is implemented on the src file here is a Deep Learning approach feeding a CNN with a melspectrogram.
 
-You can check in the nbs folder on how we extracted the features, but here are the current results on the test set:
+Requirement：
+librosa
+matplotlib
+lightgbm
+tensorflow
+wheel
+
+### Results
+Here are the current results on the test set:
 
 | Model | Acc |
 |-------|-----|
-| Decision Tree | 0.5160 |
-| Random Forest | 0.6760 |
-| ElasticNet | 0.6880 |
-| Logistic Regression | 0.7640 |
-| SVM (RBF) | 0.7880 |
+| Logistic Regression | 0.653 |
+| KNN | 0.687 |
+| SVM | 0.724 |
 
-For the deep learning approach we have tested a simple custom architecture. 
+For the deep learning approach we have the result. 
 
 | Model | Acc |
 |-------|-----|
-| **CNN 2D** | **0.832** |
+| CNN | 0.832 |
 
 ### Dataset
 
-And how to get the dataset?
-
-1. Download the GTZAN dataset (http://marsyas.info/downloads/datasets.html)
+Download the GTZAN dataset (http://marsyas.info/downloads/datasets.html)
+The dataset contains 30-second audio files including 10 different genres including reggae, classical, country, jazz, metal, pop, disco, hiphop, rock and blues.Once you downloaded the dataset, unzip and move the dataset to your home folder. After you have done this, you should have the following content in the data folder.
 
 
 ### How to run
+Just run the .ipynb in the code folder.
 
 
 
