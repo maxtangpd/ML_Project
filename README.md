@@ -1,6 +1,5 @@
 ## ML PROJECT
 
->  Music Genre classification using Logistic Regression, KNN，SVM，CNN
 Members:
 Siqi Dong, sd4147  |  Peidi Tang, pt1348  |  Yu Fan, yf1399  |  Jiaxin Jiang, jj2919
 
@@ -13,21 +12,6 @@ matplotlib
 lightgbm
 tensorflow
 wheel
-
-### Results
-Here are the current results on the test set:
-
-| Model | Acc |
-|-------|-----|
-| Logistic Regression | 0.653 |
-| KNN | 0.687 |
-| SVM | 0.724 |
-
-For the deep learning approach we have the result. 
-
-| Model | Acc |
-|-------|-----|
-| CNN | 0.832 |
 
 ### Dataset
 
