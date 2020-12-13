@@ -1,6 +1,8 @@
 ## ML PROJECT
 
 >  Music Genre classification using Logistic Regression, KNN，SVM，CNN
+Members:
+Siqi Dong, sd4147  |  Peidi Tang, pt1348  |  Yu Fan, yf1399  |  Jiaxin Jiang, jj2919
 
 ### Overview
 To compare the result across multiple architectures, we have took two approaches for this problem: One using the classic approach of extracting features and then using a classifier. The second approach, wich is implemented on the src file here is a Deep Learning approach feeding a CNN with a melspectrogram.
